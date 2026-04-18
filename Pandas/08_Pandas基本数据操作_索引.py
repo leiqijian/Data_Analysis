@@ -23,6 +23,8 @@ pd.set_option('display.max_colwidth', None)
 pd.set_option('display.max_rows', None)
 data = pd.read_csv('data/stock_day.csv')
 # print(data)
+print(type(data))
+
 
 # axis = 1 :修改列
 # axis = 0 :修改行
