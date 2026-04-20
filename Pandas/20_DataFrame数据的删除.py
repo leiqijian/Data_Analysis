@@ -1,7 +1,7 @@
 '''
 del是直接永久删除原df中的列【慎重使用】
 drop是返回删除后的df或seires，原df或seires没有被修改
-
+series unique 给某一列数据去重
 '''
 import pandas as pd
 

@@ -1,15 +1,21 @@
 '''
 分组
-    -
+    -dataframe.groupby() return 分组对象
+        - 基于一列进行分组 df.groupby(['gender_group'])
+        - 基于多列进行分组 df.groupby(['gender_group', 'city'])
 
 查询
-    -
+    - DataFrameGroupBy对象.first() # 取出每组第一条数据
+    - DataFrameGroupBy对象.last() # 取出每组最后一条数据
+    - DataFrameGroupBy对象.get_group() # 按分组依据获取其中一组
 
 聚合函数
-    -
+    :分组后对多列分别使用不同的聚合函数
+        -dataframe.groupby().agg({'指定列1':'聚合函数名',  '指定列2':'聚合函数名'})
 
 分组聚合的过滤操作
-    -
+    : 返回分组之后满足过滤条件的组的所有数据
+        - dataframe.groupby(['列名1',...]).filter(lambda s: s.mean() > 200)
 '''
 
 import pandas as pd
