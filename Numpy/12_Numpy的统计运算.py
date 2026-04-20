@@ -1,6 +1,12 @@
 '''
-
-
+np.max()
+np.min()
+np.sum()
+np.std()
+np.mean()
+np.median()
+np.argmax()
+np.argmin()
 '''
 
 import numpy as np
@@ -8,6 +14,7 @@ import numpy as np
 score = np.random.randint(40, 100, (10, 5))
 
 temp = score[:4, 0:5]
+print(temp)
 
 print("前四名学生,各科成绩的最大分：{}".format(np.max(temp, axis=0)))
 print("前四名学生,各科成绩的最小分：{}".format(np.min(temp, axis=0)))

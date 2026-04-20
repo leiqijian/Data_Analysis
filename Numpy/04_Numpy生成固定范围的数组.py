@@ -9,13 +9,13 @@ import numpy as np
 
 a = np.linspace (1, 10, 10, dtype = int)
 
-print(a)
+print(a) #[ 1  2  3  4  5  6  7  8  9 10]
 
-b = np.arange(1, 10, 1)
+b = np.arange(1, 10, 1) #[1 2 3 4 5 6 7 8 9]
 print(b)
 
 c = np.logspace(0,2, 3, base = 10)
-print(c)
+print(c) # [  1.  10. 100.]
 
 
 

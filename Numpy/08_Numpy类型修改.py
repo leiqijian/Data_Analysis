@@ -1,5 +1,6 @@
 '''
-
+ndarray.astype(type) : 返回修改了类型之后的数组
+ndarray.tobytes() : 构造包含数组中原始数据字节的Python字节
 
 '''
 

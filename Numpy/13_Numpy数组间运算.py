@@ -32,7 +32,7 @@ print(result)
 # 广播机制
 arr1 = np.array([[1, 2, 3, 2, 1, 4], [5, 6, 1, 2, 3, 1]])   # 2 x 6
 arr2 = np.array([[1, 2, 3, 4], [3, 4, 5, 6]])  # 2 x 4
-print(arr1 + arr2) #报错
+# print(arr1 + arr2) #报错
 
 
 # 1. 维度大小相等

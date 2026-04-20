@@ -1,5 +1,7 @@
 '''
-
+ndarray.reshape(shape) : 修改前后元素个数不能变
+ndarray.resize(new_shape) : 修改前后元素个数可以不同
+ndarray.T :  数组的转置，将数组的行、列进行互换
 
 '''
 
